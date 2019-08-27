@@ -20,7 +20,9 @@ http://127.0.0.1:8080
 ```
 To get 1 proxy you can simply do this:
 ``` python
-import proxify
+``` python
+``` python
+import ProxyScraper
 proxy = proxify.one()
 ```
 Output:
@@ -31,7 +33,9 @@ http://103.74.244.199:8080
 
 To get many proxies, do this:
 ``` python
-import proxify
+``` python
+``` python
+import ProxyScraper
 proxy = proxify.many()
 ```
 Output:
@@ -47,7 +51,9 @@ u'http://54.207.104.166:8080']
 
 To dump a specific number of proxies, lets say '5'. You can do this:
 ``` python
-import proxify
+``` python
+``` python
+import ProxyScraper
 proxy = proxify.get(5)
 ```
 Output:
